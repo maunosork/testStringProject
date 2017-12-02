@@ -41,11 +41,6 @@ public class StringHelperTest {
 		assertEquals("& ", helper.truncateAInFirst2Positions("&A "));
 	}
 
-	@Test
-	public void testTruncateAInFirst2Positions_test_numbers() {
-		assertEquals("21355364", helper.truncateAInFirst2Positions("21355364"));
-	}
-
 	/* AreFirstAndLastTwoCharactersTheSame */
 	@Test
 	public void testAreFirstAndLastTwoCharactersTheSame_ABcdeAB() {
